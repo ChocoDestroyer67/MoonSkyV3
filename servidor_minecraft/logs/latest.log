@@ -1,62 +1,33 @@
-[22:31:40] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[22:31:40] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
-[22:31:42] [ServerMain/INFO]: Loaded 7 recipes
-[22:31:43] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[22:31:43] [Server thread/INFO]: Loading properties
-[22:31:44] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
-[22:31:44] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[22:31:44] [Server thread/INFO]: Using 4 threads for Netty based IO
-[22:31:45] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[22:31:45] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[22:45:56] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[22:45:59] [ServerMain/INFO]: Loaded 7 recipes
+[22:46:00] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[22:46:00] [Server thread/INFO]: Loading properties
+[22:46:00] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
+[22:46:01] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[22:46:01] [Server thread/INFO]: Using 4 threads for Netty based IO
+[22:46:01] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[22:31:45] [Server thread/INFO]: Default game type: SURVIVAL
-[22:31:45] [Server thread/INFO]: Generating keypair
-[22:31:46] [Server thread/INFO]: Starting Minecraft server on *:25565
-[22:31:46] [Server thread/INFO]: Using epoll channel type
-[22:31:46] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[22:31:46] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[22:31:46] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[22:31:46] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[22:31:46] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[22:31:46] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[22:31:46] [Server thread/INFO]: Preparing level "world"
-[22:32:03] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[22:32:03] [Server thread/INFO]: Time elapsed: 253 ms
-[22:32:03] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[22:32:03] [Server thread/INFO]: Time elapsed: 265 ms
-[22:32:03] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[22:32:03] [Server thread/INFO]: Time elapsed: 131 ms
-[22:32:03] [Server thread/INFO]: Running delayed init tasks
-[22:32:03] [Server thread/INFO]: Done (20.129s)! For help, type "help"
-[22:32:03] [Server thread/INFO]: Timings Reset
-[22:39:35] [User Authenticator #0/INFO]: UUID of player SoyKino_00 is c0efdffe-6950-3dfc-8df3-83f1edab0623
-[22:39:35] [Server thread/INFO]: SoyKino_00 joined the game
-[22:39:35] [Server thread/INFO]: SoyKino_00[/127.13.57.13:57441] logged in with entity id 948 at ([world]-71.5, 64.0, 73.5)
-[22:41:24] [Server thread/INFO]: SoyKino_00 lost connection: Disconnected
-[22:41:24] [Server thread/INFO]: SoyKino_00 left the game
-[22:44:37] [Server thread/INFO]: Stopping server
-[22:44:37] [Server thread/INFO]: Saving players
-[22:44:37] [Server thread/INFO]: Saving worlds
-[22:44:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[22:44:37] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[22:44:37] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[22:44:37] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[22:44:38] [Server thread/INFO]: [ChunkHolderManager] Saved 1641 block chunks, 203 entity chunks, 0 poi chunks in world 'world' in 1.47s
-[22:44:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[22:44:39] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[22:44:39] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[22:44:39] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[22:44:39] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[22:44:40] [Server thread/INFO]: [ChunkHolderManager] Saved 1496 block chunks, 25 entity chunks, 0 poi chunks in world 'world_nether' in 0.99s
-[22:44:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[22:44:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[22:44:40] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[22:44:40] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[22:44:40] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[22:44:41] [Server thread/INFO]: [ChunkHolderManager] Saved 1506 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.96s
-[22:44:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[22:44:41] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[22:44:41] [Server thread/INFO]: Flushing Chunk IO
-[22:44:41] [Server thread/INFO]: Closing Thread Pool
-[22:44:41] [Server thread/INFO]: Closing Server
+[22:46:02] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[22:46:02] [Server thread/INFO]: Default game type: SURVIVAL
+[22:46:02] [Server thread/INFO]: Generating keypair
+[22:46:02] [Server thread/INFO]: Starting Minecraft server on *:25565
+[22:46:02] [Server thread/INFO]: Using epoll channel type
+[22:46:03] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[22:46:03] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[22:46:03] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[22:46:03] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[22:46:03] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[22:46:03] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[22:46:03] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[22:46:03] [Server thread/INFO]: Preparing level "world"
+[22:46:04] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[22:46:04] [Server thread/INFO]: Time elapsed: 457 ms
+[22:46:04] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[22:46:04] [Server thread/INFO]: Time elapsed: 243 ms
+[22:46:04] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[22:46:05] [Server thread/INFO]: Time elapsed: 190 ms
+[22:46:05] [Server thread/INFO]: Running delayed init tasks
+[22:46:05] [Server thread/INFO]: Done (4.868s)! For help, type "help"
+[22:46:05] [Server thread/INFO]: Timings Reset
+[22:46:05] [Server thread/INFO]: Unknown command. Type "/help" for help.
